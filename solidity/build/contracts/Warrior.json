@@ -1,0 +1,361 @@
+{
+  "contractName": "Warrior",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getName",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"getName\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Classes/Warrior.sol\":\"Warrior\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Class.sol\":{\"keccak256\":\"0x9af44289376fe34407fa0559529df073ecb938c1d565c5a085c251e2d6715ba3\",\"urls\":[\"bzzr://c7c0a1d48da18dfd4f55878f5cb94951541c9a6cfda82897f5e77ada32b16ca4\"]},\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Classes/Warrior.sol\":{\"keccak256\":\"0x3bdcc4827bb71df6b575bd22dab6c7b7193793a17e487aa7f66c9d6610ccb147\",\"urls\":[\"bzzr://1cdd7c39b66a8f2e60fc00669270c7d3dcf49c0d187296d2c46b64149e41aeec\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061013f806100206000396000f3fe608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806317d7de7c14610046575b600080fd5b34801561005257600080fd5b5061005b6100d6565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009b578082015181840152602081019050610080565b50505050905090810190601f1680156100c85780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040805190810160405280600781526020017f57617272696f720000000000000000000000000000000000000000000000000081525090509056fea165627a7a723058205a5e2510541c073eb1e5b8a838ae2a01a6dddf30fec8f2dbca026f09416818e00029",
+  "deployedBytecode": "0x608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806317d7de7c14610046575b600080fd5b34801561005257600080fd5b5061005b6100d6565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009b578082015181840152602081019050610080565b50505050905090810190601f1680156100c85780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040805190810160405280600781526020017f57617272696f720000000000000000000000000000000000000000000000000081525090509056fea165627a7a723058205a5e2510541c073eb1e5b8a838ae2a01a6dddf30fec8f2dbca026f09416818e00029",
+  "sourceMap": "58:113:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:113:3;;;;;;;",
+  "deployedSourceMap": "58:113:3:-;;;;;;;;;;;;;;;;;;;;;;;;88:81;;8:9:-1;5:2;;;30:1;27;20:12;5:2;88:81:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;88:81:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:13;148:16;;;;;;;;;;;;;;;;;;;;88:81;:::o",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\n\nimport \"../Class.sol\";\n\ncontract Warrior is Class {\n  function getName() public pure returns(string memory) {\n    return \"Warrior\";\n  }\n}\n",
+  "sourcePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Classes/Warrior.sol",
+  "ast": {
+    "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Classes/Warrior.sol",
+    "exportedSymbols": {
+      "Warrior": [
+        75
+      ]
+    },
+    "id": 76,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 63,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:3"
+      },
+      {
+        "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 64,
+        "nodeType": "ImportDirective",
+        "scope": 76,
+        "sourceUnit": 48,
+        "src": "34:22:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 65,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 47,
+              "src": "78:5:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$47",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 66,
+            "nodeType": "InheritanceSpecifier",
+            "src": "78:5:3"
+          }
+        ],
+        "contractDependencies": [
+          47
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 75,
+        "linearizedBaseContracts": [
+          75,
+          47
+        ],
+        "name": "Warrior",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 73,
+              "nodeType": "Block",
+              "src": "142:27:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "57617272696f72",
+                    "id": 71,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "155:9:3",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_825470cb7dd6b42e6dc592d606211ff8ba1aca3dfc64603420140f1c5303a1aa",
+                      "typeString": "literal_string \"Warrior\""
+                    },
+                    "value": "Warrior"
+                  },
+                  "functionReturnParameters": 70,
+                  "id": 72,
+                  "nodeType": "Return",
+                  "src": "148:16:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 74,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 67,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "104:2:3"
+            },
+            "returnParameters": {
+              "id": 70,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 69,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "127:13:3",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 68,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "127:6:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "126:15:3"
+            },
+            "scope": 75,
+            "src": "88:81:3",
+            "stateMutability": "pure",
+            "superFunction": 46,
+            "visibility": "public"
+          }
+        ],
+        "scope": 76,
+        "src": "58:113:3"
+      }
+    ],
+    "src": "0:172:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Classes/Warrior.sol",
+    "exportedSymbols": {
+      "Warrior": [
+        75
+      ]
+    },
+    "id": 76,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 63,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:3"
+      },
+      {
+        "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 64,
+        "nodeType": "ImportDirective",
+        "scope": 76,
+        "sourceUnit": 48,
+        "src": "34:22:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 65,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 47,
+              "src": "78:5:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$47",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 66,
+            "nodeType": "InheritanceSpecifier",
+            "src": "78:5:3"
+          }
+        ],
+        "contractDependencies": [
+          47
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 75,
+        "linearizedBaseContracts": [
+          75,
+          47
+        ],
+        "name": "Warrior",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 73,
+              "nodeType": "Block",
+              "src": "142:27:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "57617272696f72",
+                    "id": 71,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "155:9:3",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_825470cb7dd6b42e6dc592d606211ff8ba1aca3dfc64603420140f1c5303a1aa",
+                      "typeString": "literal_string \"Warrior\""
+                    },
+                    "value": "Warrior"
+                  },
+                  "functionReturnParameters": 70,
+                  "id": 72,
+                  "nodeType": "Return",
+                  "src": "148:16:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 74,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 67,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "104:2:3"
+            },
+            "returnParameters": {
+              "id": 70,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 69,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "127:13:3",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 68,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "127:6:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "126:15:3"
+            },
+            "scope": 75,
+            "src": "88:81:3",
+            "stateMutability": "pure",
+            "superFunction": 46,
+            "visibility": "public"
+          }
+        ],
+        "scope": 76,
+        "src": "58:113:3"
+      }
+    ],
+    "src": "0:172:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.6",
+  "updatedAt": "2019-03-31T23:31:26.545Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

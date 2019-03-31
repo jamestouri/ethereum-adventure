@@ -1,0 +1,176 @@
+{
+  "contractName": "Backstab",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spells/Backstab.sol\":\"Backstab\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spell.sol\":{\"keccak256\":\"0x1ce5e46a8fe52af78232e89a4495d841bc4a295080d852dcbb95fa2cd393acb3\",\"urls\":[\"bzzr://d233011f5abd63df4da46f9a04383de3cd19c251c0fe9eb229bb8b19d9f1a22f\"]},\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spells/Backstab.sol\":{\"keccak256\":\"0xa90dd306155cd6ecfca1bfd1283fb7d9a4928ca2db617ce886043c4427005a53\",\"urls\":[\"bzzr://b5e28b91d7a947464c97ed5afabf5f266ec336878ac343f21d5ececb4dcaeb60\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820c2342617b6f54de77e5a1d6533c8e1a34345c057f7dc139de84abd49336cdaf80029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820c2342617b6f54de77e5a1d6533c8e1a34345c057f7dc139de84abd49336cdaf80029",
+  "sourceMap": "58:31:8:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:31:8;;;;;;;",
+  "deployedSourceMap": "58:31:8:-;;;;;",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\n\nimport \"../Spell.sol\";\n\ncontract Backstab is Spell {\n\n}\n",
+  "sourcePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spells/Backstab.sol",
+  "ast": {
+    "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spells/Backstab.sol",
+    "exportedSymbols": {
+      "Backstab": [
+        252
+      ]
+    },
+    "id": 253,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 248,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:8"
+      },
+      {
+        "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 249,
+        "nodeType": "ImportDirective",
+        "scope": 253,
+        "sourceUnit": 247,
+        "src": "34:22:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 250,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 246,
+              "src": "79:5:8",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$246",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 251,
+            "nodeType": "InheritanceSpecifier",
+            "src": "79:5:8"
+          }
+        ],
+        "contractDependencies": [
+          246
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 252,
+        "linearizedBaseContracts": [
+          252,
+          246
+        ],
+        "name": "Backstab",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 253,
+        "src": "58:31:8"
+      }
+    ],
+    "src": "0:90:8"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spells/Backstab.sol",
+    "exportedSymbols": {
+      "Backstab": [
+        252
+      ]
+    },
+    "id": 253,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 248,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:8"
+      },
+      {
+        "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 249,
+        "nodeType": "ImportDirective",
+        "scope": 253,
+        "sourceUnit": 247,
+        "src": "34:22:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 250,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 246,
+              "src": "79:5:8",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$246",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 251,
+            "nodeType": "InheritanceSpecifier",
+            "src": "79:5:8"
+          }
+        ],
+        "contractDependencies": [
+          246
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 252,
+        "linearizedBaseContracts": [
+          252,
+          246
+        ],
+        "name": "Backstab",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 253,
+        "src": "58:31:8"
+      }
+    ],
+    "src": "0:90:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.6",
+  "updatedAt": "2019-03-31T23:31:26.546Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

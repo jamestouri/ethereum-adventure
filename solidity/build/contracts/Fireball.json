@@ -1,0 +1,176 @@
+{
+  "contractName": "Fireball",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spells/Fireball.sol\":\"Fireball\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spell.sol\":{\"keccak256\":\"0x1ce5e46a8fe52af78232e89a4495d841bc4a295080d852dcbb95fa2cd393acb3\",\"urls\":[\"bzzr://d233011f5abd63df4da46f9a04383de3cd19c251c0fe9eb229bb8b19d9f1a22f\"]},\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spells/Fireball.sol\":{\"keccak256\":\"0x87b383ad8d8eaa34db927e318c7f815de78755301d485549b0db8e26c64b0cbe\",\"urls\":[\"bzzr://0f6a7b066c2f1233b6e6ba488f97c95f9c506ae4bcc7e52b87bd43cd73d07ed0\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820ec2e990710fe3bd28c3f1f13754671dd8fe2b450fed4b7cfff5deacf5417ee380029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820ec2e990710fe3bd28c3f1f13754671dd8fe2b450fed4b7cfff5deacf5417ee380029",
+  "sourceMap": "58:31:10:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:31:10;;;;;;;",
+  "deployedSourceMap": "58:31:10:-;;;;;",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\n\nimport \"../Spell.sol\";\n\ncontract Fireball is Spell {\n\n}\n",
+  "sourcePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spells/Fireball.sol",
+  "ast": {
+    "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spells/Fireball.sol",
+    "exportedSymbols": {
+      "Fireball": [
+        264
+      ]
+    },
+    "id": 265,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 260,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:10"
+      },
+      {
+        "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 261,
+        "nodeType": "ImportDirective",
+        "scope": 265,
+        "sourceUnit": 247,
+        "src": "34:22:10",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 262,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 246,
+              "src": "79:5:10",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$246",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 263,
+            "nodeType": "InheritanceSpecifier",
+            "src": "79:5:10"
+          }
+        ],
+        "contractDependencies": [
+          246
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 264,
+        "linearizedBaseContracts": [
+          264,
+          246
+        ],
+        "name": "Fireball",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 265,
+        "src": "58:31:10"
+      }
+    ],
+    "src": "0:90:10"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spells/Fireball.sol",
+    "exportedSymbols": {
+      "Fireball": [
+        264
+      ]
+    },
+    "id": 265,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 260,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:10"
+      },
+      {
+        "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 261,
+        "nodeType": "ImportDirective",
+        "scope": 265,
+        "sourceUnit": 247,
+        "src": "34:22:10",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 262,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 246,
+              "src": "79:5:10",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$246",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 263,
+            "nodeType": "InheritanceSpecifier",
+            "src": "79:5:10"
+          }
+        ],
+        "contractDependencies": [
+          246
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 264,
+        "linearizedBaseContracts": [
+          264,
+          246
+        ],
+        "name": "Fireball",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 265,
+        "src": "58:31:10"
+      }
+    ],
+    "src": "0:90:10"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.6",
+  "updatedAt": "2019-03-31T23:31:26.547Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

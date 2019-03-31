@@ -1,0 +1,110 @@
+{
+  "contractName": "Spell",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spell.sol\":\"Spell\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spell.sol\":{\"keccak256\":\"0x1ce5e46a8fe52af78232e89a4495d841bc4a295080d852dcbb95fa2cd393acb3\",\"urls\":[\"bzzr://d233011f5abd63df4da46f9a04383de3cd19c251c0fe9eb229bb8b19d9f1a22f\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820c1799504049a9686d34e474fa867868df1fce4af35efa77e8b43ffcfa29358bd0029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820c1799504049a9686d34e474fa867868df1fce4af35efa77e8b43ffcfa29358bd0029",
+  "sourceMap": "34:19:7:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:19:7;;;;;;;",
+  "deployedSourceMap": "34:19:7:-;;;;;",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\n\ncontract Spell {\n\n}\n",
+  "sourcePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spell.sol",
+  "ast": {
+    "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spell.sol",
+    "exportedSymbols": {
+      "Spell": [
+        246
+      ]
+    },
+    "id": 247,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 245,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 246,
+        "linearizedBaseContracts": [
+          246
+        ],
+        "name": "Spell",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 247,
+        "src": "34:19:7"
+      }
+    ],
+    "src": "0:54:7"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Spell.sol",
+    "exportedSymbols": {
+      "Spell": [
+        246
+      ]
+    },
+    "id": 247,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 245,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 246,
+        "linearizedBaseContracts": [
+          246
+        ],
+        "name": "Spell",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 247,
+        "src": "34:19:7"
+      }
+    ],
+    "src": "0:54:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.6",
+  "updatedAt": "2019-03-31T23:31:26.546Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

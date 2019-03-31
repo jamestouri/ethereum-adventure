@@ -1,0 +1,361 @@
+{
+  "contractName": "Rogue",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getName",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"getName\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Classes/Rogue.sol\":\"Rogue\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Class.sol\":{\"keccak256\":\"0x9af44289376fe34407fa0559529df073ecb938c1d565c5a085c251e2d6715ba3\",\"urls\":[\"bzzr://c7c0a1d48da18dfd4f55878f5cb94951541c9a6cfda82897f5e77ada32b16ca4\"]},\"/Users/jamestouri/Desktop/ethereum/solidity/contracts/Classes/Rogue.sol\":{\"keccak256\":\"0x8269ad12daa15549ae8c78e9077ae645631953bc0853b027483f440885582712\",\"urls\":[\"bzzr://a0d7068992b55bb4e51de704063d03b90590a0e0229bd607fe72ab936d09bce9\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061013f806100206000396000f3fe608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806317d7de7c14610046575b600080fd5b34801561005257600080fd5b5061005b6100d6565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009b578082015181840152602081019050610080565b50505050905090810190601f1680156100c85780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040805190810160405280600581526020017f526f67756500000000000000000000000000000000000000000000000000000081525090509056fea165627a7a7230582066d81fa913d7c066377ebe1139fb869057db3a7b417a050f0cd9d7f41466b31f0029",
+  "deployedBytecode": "0x608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806317d7de7c14610046575b600080fd5b34801561005257600080fd5b5061005b6100d6565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009b578082015181840152602081019050610080565b50505050905090810190601f1680156100c85780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040805190810160405280600581526020017f526f67756500000000000000000000000000000000000000000000000000000081525090509056fea165627a7a7230582066d81fa913d7c066377ebe1139fb869057db3a7b417a050f0cd9d7f41466b31f0029",
+  "sourceMap": "58:108:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:108:2;;;;;;;",
+  "deployedSourceMap": "58:108:2:-;;;;;;;;;;;;;;;;;;;;;;;;85:79;;8:9:-1;5:2;;;30:1;27;20:12;5:2;85:79:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;85:79:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;124:13;145:14;;;;;;;;;;;;;;;;;;;;85:79;:::o",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\n\nimport \"../Class.sol\";\n\ncontract Rogue is Class{\n  function getName() public pure returns(string memory) {\n    return \"Rogue\";\n  }\n}\n",
+  "sourcePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Classes/Rogue.sol",
+  "ast": {
+    "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Classes/Rogue.sol",
+    "exportedSymbols": {
+      "Rogue": [
+        61
+      ]
+    },
+    "id": 62,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 49,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:2"
+      },
+      {
+        "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 50,
+        "nodeType": "ImportDirective",
+        "scope": 62,
+        "sourceUnit": 48,
+        "src": "34:22:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 51,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 47,
+              "src": "76:5:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$47",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 52,
+            "nodeType": "InheritanceSpecifier",
+            "src": "76:5:2"
+          }
+        ],
+        "contractDependencies": [
+          47
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 61,
+        "linearizedBaseContracts": [
+          61,
+          47
+        ],
+        "name": "Rogue",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 59,
+              "nodeType": "Block",
+              "src": "139:25:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "526f677565",
+                    "id": 57,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "152:7:2",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_82e11a8b1211ad30078f4b2a88f90fda53d9d49f3a8042a6bc1ee16e72af12bd",
+                      "typeString": "literal_string \"Rogue\""
+                    },
+                    "value": "Rogue"
+                  },
+                  "functionReturnParameters": 56,
+                  "id": 58,
+                  "nodeType": "Return",
+                  "src": "145:14:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 60,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 53,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "101:2:2"
+            },
+            "returnParameters": {
+              "id": 56,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 55,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 60,
+                  "src": "124:13:2",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 54,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "124:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "123:15:2"
+            },
+            "scope": 61,
+            "src": "85:79:2",
+            "stateMutability": "pure",
+            "superFunction": 46,
+            "visibility": "public"
+          }
+        ],
+        "scope": 62,
+        "src": "58:108:2"
+      }
+    ],
+    "src": "0:167:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Classes/Rogue.sol",
+    "exportedSymbols": {
+      "Rogue": [
+        61
+      ]
+    },
+    "id": 62,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 49,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:2"
+      },
+      {
+        "absolutePath": "/Users/jamestouri/Desktop/ethereum/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 50,
+        "nodeType": "ImportDirective",
+        "scope": 62,
+        "sourceUnit": 48,
+        "src": "34:22:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 51,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 47,
+              "src": "76:5:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$47",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 52,
+            "nodeType": "InheritanceSpecifier",
+            "src": "76:5:2"
+          }
+        ],
+        "contractDependencies": [
+          47
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 61,
+        "linearizedBaseContracts": [
+          61,
+          47
+        ],
+        "name": "Rogue",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 59,
+              "nodeType": "Block",
+              "src": "139:25:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "526f677565",
+                    "id": 57,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "152:7:2",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_82e11a8b1211ad30078f4b2a88f90fda53d9d49f3a8042a6bc1ee16e72af12bd",
+                      "typeString": "literal_string \"Rogue\""
+                    },
+                    "value": "Rogue"
+                  },
+                  "functionReturnParameters": 56,
+                  "id": 58,
+                  "nodeType": "Return",
+                  "src": "145:14:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 60,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 53,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "101:2:2"
+            },
+            "returnParameters": {
+              "id": 56,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 55,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 60,
+                  "src": "124:13:2",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 54,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "124:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "123:15:2"
+            },
+            "scope": 61,
+            "src": "85:79:2",
+            "stateMutability": "pure",
+            "superFunction": 46,
+            "visibility": "public"
+          }
+        ],
+        "scope": 62,
+        "src": "58:108:2"
+      }
+    ],
+    "src": "0:167:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.6",
+  "updatedAt": "2019-03-31T23:31:26.545Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
